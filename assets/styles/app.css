@@ -1,0 +1,17 @@
+body {
+    background-color: lightgray;
+}
+
+.favorites-div {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex: 0 0 150px;
+}
+
+.favorites-div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
